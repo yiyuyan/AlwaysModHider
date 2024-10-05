@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "amh",
+  "version": "${version}",
+  "name": "AlwaysModHider",
+  "description": "A simple mod hider mod.",
+  "authors": [
+    "KSmc_brigade"
+  ],
+  "contact": {
+    "repo": "https://github.com/yiyuyan/AlwaysModHider"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "preLaunch": [
+      "cn.ksmcbrigade.amh.client.PreMod"
+    ]
+  },
+  "mixins": [
+    "amh.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  },
+  "recommends": {
+    "modmenu": "*",
+    "mod_whitelist": "*",
+    "cheatdetector": "*",
+    "cheatutils": "*",
+    "wurst": "*",
+    "meteor-client": "*"
+  }
+}

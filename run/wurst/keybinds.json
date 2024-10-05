@@ -1,0 +1,16 @@
+{
+  "key.keyboard.b": "fastplace;fastbreak",
+  "key.keyboard.c": "fullbright",
+  "key.keyboard.g": "flight",
+  "key.keyboard.h": "say /home",
+  "key.keyboard.j": "jesus",
+  "key.keyboard.k": "multiaura",
+  "key.keyboard.n": "nuker",
+  "key.keyboard.r": "killaura",
+  "key.keyboard.right.control": "clickgui",
+  "key.keyboard.right.shift": "navigator",
+  "key.keyboard.semicolon": "speednuker",
+  "key.keyboard.u": "freecam",
+  "key.keyboard.x": "x-ray",
+  "key.keyboard.y": "sneak"
+}

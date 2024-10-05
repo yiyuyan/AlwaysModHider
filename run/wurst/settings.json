@@ -1,0 +1,1107 @@
+{
+  "AimAssist": {
+    "Range": 4.5,
+    "Rotation Speed": 600.0,
+    "FOV": 120.0,
+    "Filter players": false,
+    "Filter sleeping": false,
+    "Filter flying": 0.0,
+    "Filter monsters": false,
+    "Filter pigmen": false,
+    "Filter endermen": false,
+    "Filter animals": true,
+    "Filter babies": true,
+    "Filter pets": true,
+    "Filter traders": true,
+    "Filter golems": false,
+    "Filter invisible": true,
+    "Filter named": false,
+    "Filter shulker bullets": false,
+    "Filter armor stands": true,
+    "Filter end crystals": true
+  },
+  "AirPlace": {
+    "Range": 5.0
+  },
+  "AnchorAura": {
+    "Range": 6.0,
+    "Auto-place anchors": true,
+    "Face anchors": "Off",
+    "Check line of sight": false,
+    "Take items from": "Inventory",
+    "Filter players": false,
+    "Filter monsters": true,
+    "Filter animals": true,
+    "Filter traders": true,
+    "Filter golems": true,
+    "Filter allays": true,
+    "Filter invisible": false,
+    "Filter named": false,
+    "Filter armor stands": true
+  },
+  "AntiAFK": {
+    "Use AI": true
+  },
+  "AntiKnockback": {
+    "Horizontal Strength": 1.0,
+    "Vertical Strength": 1.0
+  },
+  "AntiWaterPush": {
+    "Prevent slowdown": false
+  },
+  "ArrowDMG": {
+    "Packets": 200.0,
+    "Trident yeet mode": false
+  },
+  "AutoArmor": {
+    "Use enchantments": true,
+    "Swap while moving": false,
+    "Delay": 2.0
+  },
+  "AutoBuild": {
+    "Template": "Bridge.json",
+    "Range": 6.0,
+    "Check line of sight": false,
+    "InstaBuild": true,
+    "Always FastPlace": true
+  },
+  "AutoComplete": {
+    "API provider": "oobabooga",
+    "OpenAI model": "gpt-3.5-turbo",
+    "Max tokens": 16.0,
+    "Temperature": 0.7,
+    "Top P": 1.0,
+    "Presence penalty": 0.0,
+    "Frequency penalty": 0.6,
+    "Repetition penalty": 1.0,
+    "Encoder repetition penalty": 1.0,
+    "Stop sequence": "Line Break",
+    "Context length": 10.0,
+    "Filter server messages": false,
+    "OpenAI chat endpoint": "https://api.openai.com/v1/chat/completions",
+    "OpenAI legacy endpoint": "https://api.openai.com/v1/completions",
+    "Oobabooga endpoint": "http://127.0.0.1:5000/api/v1/generate",
+    "Max suggestions per draft": 3.0,
+    "Max suggestions kept": 100.0,
+    "Max suggestions shown": 5.0
+  },
+  "AutoDrop": {
+    "Items": [
+      "minecraft:allium",
+      "minecraft:azure_bluet",
+      "minecraft:blue_orchid",
+      "minecraft:cornflower",
+      "minecraft:dandelion",
+      "minecraft:lilac",
+      "minecraft:lily_of_the_valley",
+      "minecraft:orange_tulip",
+      "minecraft:oxeye_daisy",
+      "minecraft:peony",
+      "minecraft:pink_tulip",
+      "minecraft:poisonous_potato",
+      "minecraft:poppy",
+      "minecraft:red_tulip",
+      "minecraft:rose_bush",
+      "minecraft:rotten_flesh",
+      "minecraft:sunflower",
+      "minecraft:wheat_seeds",
+      "minecraft:white_tulip"
+    ]
+  },
+  "AutoEat": {
+    "Target hunger": 10.0,
+    "Min hunger": 6.5,
+    "Injured hunger": 10.0,
+    "Injury threshold": 1.5,
+    "Take items from": "Hotbar",
+    "Allow offhand": true,
+    "Eat while walking": false,
+    "Allow hunger effect": true,
+    "Allow poison effect": false,
+    "Allow chorus fruit": false
+  },
+  "AutoFarm": {
+    "Range": 5.0,
+    "Replant": true
+  },
+  "AutoFish": {
+    "Valid range": 1.5,
+    "Catch delay": 0.0,
+    "Retry delay": 15.0,
+    "Patience": 60.0,
+    "Debug draw": false,
+    "DD color": "#FF0000",
+    "Stop when out of rods": false,
+    "Stop when inv full": false,
+    "Shallow water warning": true
+  },
+  "AutoLeave": {
+    "Health": 4.0,
+    "Mode": "Quit"
+  },
+  "AutoLibrarian": {
+    "Wanted books": [
+      {
+        "id": "minecraft:depth_strider",
+        "level": 3
+      },
+      {
+        "id": "minecraft:efficiency",
+        "level": 5
+      },
+      {
+        "id": "minecraft:feather_falling",
+        "level": 4
+      },
+      {
+        "id": "minecraft:fortune",
+        "level": 3
+      },
+      {
+        "id": "minecraft:looting",
+        "level": 3
+      },
+      {
+        "id": "minecraft:mending",
+        "level": 1
+      },
+      {
+        "id": "minecraft:protection",
+        "level": 4
+      },
+      {
+        "id": "minecraft:respiration",
+        "level": 3
+      },
+      {
+        "id": "minecraft:sharpness",
+        "level": 5
+      },
+      {
+        "id": "minecraft:silk_touch",
+        "level": 1
+      },
+      {
+        "id": "minecraft:unbreaking",
+        "level": 3
+      }
+    ],
+    "Lock in trade": false,
+    "Update books": "Remove",
+    "Range": 5.0,
+    "Facing": "Server-side",
+    "Swing hand": "Server-side",
+    "Repair mode": 1.0
+  },
+  "AutoPotion": {
+    "Health": 6.0
+  },
+  "AutoReconnect": {
+    "Wait time": 5.0
+  },
+  "AutoSoup": {
+    "Health": 6.5
+  },
+  "AutoSteal": {
+    "Steal/Store buttons": true,
+    "Delay": 100.0
+  },
+  "AutoSword": {
+    "Priority": "Speed (swords)",
+    "Switch back": true,
+    "Release time": 10.0
+  },
+  "AutoTool": {
+    "Use swords": false,
+    "Use hands": true,
+    "Repair mode": 0.0,
+    "Switch back": true
+  },
+  "AutoTotem": {
+    "Show totem counter": true,
+    "Delay": 0.0,
+    "Health": 0.0
+  },
+  "BaseFinder": {
+    "Natural Blocks": [
+      "minecraft:acacia_leaves",
+      "minecraft:acacia_log",
+      "minecraft:air",
+      "minecraft:allium",
+      "minecraft:amethyst_block",
+      "minecraft:amethyst_cluster",
+      "minecraft:andesite",
+      "minecraft:azure_bluet",
+      "minecraft:bedrock",
+      "minecraft:birch_leaves",
+      "minecraft:birch_log",
+      "minecraft:blue_orchid",
+      "minecraft:brown_mushroom",
+      "minecraft:brown_mushroom_block",
+      "minecraft:bubble_column",
+      "minecraft:budding_amethyst",
+      "minecraft:calcite",
+      "minecraft:cave_air",
+      "minecraft:clay",
+      "minecraft:coal_ore",
+      "minecraft:cobweb",
+      "minecraft:copper_ore",
+      "minecraft:cornflower",
+      "minecraft:dandelion",
+      "minecraft:dark_oak_leaves",
+      "minecraft:dark_oak_log",
+      "minecraft:dead_bush",
+      "minecraft:deepslate",
+      "minecraft:deepslate_coal_ore",
+      "minecraft:deepslate_copper_ore",
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:deepslate_emerald_ore",
+      "minecraft:deepslate_gold_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:deepslate_lapis_ore",
+      "minecraft:deepslate_redstone_ore",
+      "minecraft:diamond_ore",
+      "minecraft:diorite",
+      "minecraft:dirt",
+      "minecraft:dripstone_block",
+      "minecraft:emerald_ore",
+      "minecraft:fern",
+      "minecraft:glow_lichen",
+      "minecraft:gold_ore",
+      "minecraft:granite",
+      "minecraft:grass",
+      "minecraft:grass_block",
+      "minecraft:gravel",
+      "minecraft:ice",
+      "minecraft:infested_stone",
+      "minecraft:iron_ore",
+      "minecraft:jungle_leaves",
+      "minecraft:jungle_log",
+      "minecraft:kelp",
+      "minecraft:kelp_plant",
+      "minecraft:lapis_ore",
+      "minecraft:large_amethyst_bud",
+      "minecraft:large_fern",
+      "minecraft:lava",
+      "minecraft:lilac",
+      "minecraft:lily_of_the_valley",
+      "minecraft:lily_pad",
+      "minecraft:medium_amethyst_bud",
+      "minecraft:mossy_cobblestone",
+      "minecraft:mushroom_stem",
+      "minecraft:nether_quartz_ore",
+      "minecraft:netherrack",
+      "minecraft:oak_leaves",
+      "minecraft:oak_log",
+      "minecraft:obsidian",
+      "minecraft:orange_tulip",
+      "minecraft:oxeye_daisy",
+      "minecraft:peony",
+      "minecraft:pink_tulip",
+      "minecraft:pointed_dripstone",
+      "minecraft:poppy",
+      "minecraft:red_mushroom",
+      "minecraft:red_mushroom_block",
+      "minecraft:red_tulip",
+      "minecraft:redstone_ore",
+      "minecraft:rose_bush",
+      "minecraft:sand",
+      "minecraft:sandstone",
+      "minecraft:seagrass",
+      "minecraft:small_amethyst_bud",
+      "minecraft:smooth_basalt",
+      "minecraft:snow",
+      "minecraft:spawner",
+      "minecraft:spruce_leaves",
+      "minecraft:spruce_log",
+      "minecraft:stone",
+      "minecraft:sunflower",
+      "minecraft:tall_grass",
+      "minecraft:tall_seagrass",
+      "minecraft:tuff",
+      "minecraft:vine",
+      "minecraft:water",
+      "minecraft:white_tulip"
+    ],
+    "Color": "#FF0000"
+  },
+  "Blink": {
+    "Limit": 0.0
+  },
+  "BoatFly": {
+    "Change Forward Speed": false,
+    "Forward Speed": 1.0,
+    "Upward Speed": 0.3
+  },
+  "BonemealAura": {
+    "Range": 4.25,
+    "Mode": "Fast",
+    "Automation": "Right Click",
+    "Saplings": true,
+    "Crops": true,
+    "Stems": true,
+    "Cocoa": true,
+    "Other": false
+  },
+  "BowAimbot": {
+    "Priority": "Angle+Dist",
+    "Predict movement": 0.2,
+    "Filter players": false,
+    "Filter sleeping": false,
+    "Filter flying": 0.0,
+    "Filter monsters": false,
+    "Filter pigmen": false,
+    "Filter endermen": false,
+    "Filter animals": false,
+    "Filter babies": false,
+    "Filter pets": false,
+    "Filter traders": false,
+    "Filter golems": false,
+    "Filter allays": false,
+    "Filter invisible": false,
+    "Filter named": false,
+    "Filter shulker bullets": false,
+    "Filter armor stands": false,
+    "Filter end crystals": false,
+    "ESP color": "#FF0000"
+  },
+  "BuildRandom": {
+    "Range": 5.0,
+    "Max attempts": 128.0,
+    "Check held item": true,
+    "Check line of sight": false,
+    "Facing": "Server-side",
+    "Swing hand": "Server-side",
+    "Always FastPlace": false,
+    "Place while breaking": false,
+    "Place while riding": false,
+    "Indicator": true
+  },
+  "BunnyHop": {
+    "Jump if": "Sprinting"
+  },
+  "CameraDistance": {
+    "Distance": 12.0
+  },
+  "CaveFinder": {
+    "Area": "11x11 chunks",
+    "Limit": 5.0,
+    "Color": "#FF0000",
+    "Opacity": 0.0
+  },
+  "ChatTranslator": {
+    "Translate from": "Detect Language",
+    "Translate to": "English"
+  },
+  "ChestESP": {
+    "Style": "Boxes only",
+    "Chest color": "#00FF00",
+    "Include trap chests": true,
+    "Trap chest color": "#FF8000",
+    "Include ender chests": true,
+    "Ender color": "#00FFFF",
+    "Include chest carts": true,
+    "Chest cart color": "#FFFF00",
+    "Include chest boats": true,
+    "Chest boat color": "#FFFF00",
+    "Include barrels": true,
+    "Barrel color": "#00FF00",
+    "Include shulkers": true,
+    "Shulker color": "#FF00FF",
+    "Include hoppers": false,
+    "Hopper color": "#FFFFFF",
+    "Include hopper carts": false,
+    "Hopper cart color": "#FFFF00",
+    "Include droppers": false,
+    "Dropper color": "#FFFFFF",
+    "Include dispensers": false,
+    "Dispenser color": "#FF8000",
+    "Include furnaces": false,
+    "Furnace color": "#FF0000"
+  },
+  "ClickAura": {
+    "Range": 5.0,
+    "Speed": 0.0,
+    "Priority": "Angle",
+    "FOV": 360.0,
+    "Filter players": false,
+    "Filter sleeping": false,
+    "Filter flying": 0.0,
+    "Filter monsters": false,
+    "Filter pigmen": false,
+    "Filter endermen": false,
+    "Filter animals": false,
+    "Filter babies": false,
+    "Filter pets": false,
+    "Filter traders": false,
+    "Filter golems": false,
+    "Filter allays": false,
+    "Filter invisible": false,
+    "Filter named": false,
+    "Filter shulker bullets": false,
+    "Filter armor stands": false,
+    "Filter end crystals": false
+  },
+  "ClickGUI": {
+    "Background": "#404040",
+    "Accent": "#101010",
+    "Text": "#F0F0F0",
+    "Opacity": 0.5,
+    "Tooltip opacity": 0.75,
+    "Max height": 200.0,
+    "Max settings height": 200.0
+  },
+  "CreativeFlight": {
+    "Anti-Kick": false,
+    "Anti-Kick Interval": 30.0,
+    "Anti-Kick Distance": 0.07
+  },
+  "Criticals": {
+    "Mode": "Packet"
+  },
+  "CrystalAura": {
+    "Range": 6.0,
+    "Auto-place crystals": true,
+    "Face crystals": "Off",
+    "Check line of sight": false,
+    "Take items from": "Inventory",
+    "Filter players": false,
+    "Filter monsters": true,
+    "Filter animals": true,
+    "Filter traders": true,
+    "Filter golems": true,
+    "Filter allays": true,
+    "Filter invisible": false,
+    "Filter named": false,
+    "Filter armor stands": true
+  },
+  "Excavator": {
+    "Range": 5.0,
+    "Mode": "Fast"
+  },
+  "ExtraElytra": {
+    "Instant fly": true,
+    "Speed control": true,
+    "Height control": false,
+    "Stop flying in water": true
+  },
+  "FastBreak": {
+    "Activation chance": 1.0,
+    "Legit mode": false
+  },
+  "FeedAura": {
+    "Range": 5.0,
+    "Filter babies": true,
+    "Filter untamed": false,
+    "Filter horse-like animals": true
+  },
+  "FightBot": {
+    "Range": 4.25,
+    "Speed": 0.0,
+    "Distance": 3.0,
+    "Use AI (experimental)": false,
+    "Pause on containers": true,
+    "Filter players": false,
+    "Filter sleeping": false,
+    "Filter flying": 0.0,
+    "Filter monsters": false,
+    "Filter pigmen": false,
+    "Filter endermen": false,
+    "Filter animals": false,
+    "Filter babies": false,
+    "Filter pets": false,
+    "Filter traders": false,
+    "Filter golems": false,
+    "Filter allays": false,
+    "Filter invisible": false,
+    "Filter named": false,
+    "Filter shulker bullets": false,
+    "Filter armor stands": false,
+    "Filter end crystals": false
+  },
+  "Flight": {
+    "Horizontal Speed": 1.0,
+    "Vertical Speed": 1.0,
+    "Slow sneaking": true,
+    "Anti-Kick": false,
+    "Anti-Kick Interval": 30.0,
+    "Anti-Kick Distance": 0.07
+  },
+  "Follow": {
+    "Distance": 1.0,
+    "Use AI (experimental)": false,
+    "Filter players": false,
+    "Filter sleeping": false,
+    "Filter flying": 0.0,
+    "Filter monsters": true,
+    "Filter pigmen": true,
+    "Filter endermen": true,
+    "Filter animals": true,
+    "Filter babies": true,
+    "Filter pets": true,
+    "Filter traders": true,
+    "Filter golems": true,
+    "Filter allays": true,
+    "Filter invisible": false,
+    "Filter armor stands": true,
+    "Filter minecarts": true
+  },
+  "Freecam": {
+    "Speed": 1.0,
+    "Tracer": false,
+    "Tracer color": "#FFFFFF"
+  },
+  "Fullbright": {
+    "Method": "Gamma",
+    "Fade": true,
+    "Default brightness": 0.5
+  },
+  "Glide": {
+    "Fall speed": 0.125,
+    "Move speed": 1.2,
+    "Min height": 0.0
+  },
+  "HandNoClip": {
+    "Blocks": [
+      "minecraft:barrel",
+      "minecraft:black_shulker_box",
+      "minecraft:blue_shulker_box",
+      "minecraft:brown_shulker_box",
+      "minecraft:chest",
+      "minecraft:cyan_shulker_box",
+      "minecraft:dispenser",
+      "minecraft:dropper",
+      "minecraft:ender_chest",
+      "minecraft:gray_shulker_box",
+      "minecraft:green_shulker_box",
+      "minecraft:hopper",
+      "minecraft:light_blue_shulker_box",
+      "minecraft:light_gray_shulker_box",
+      "minecraft:lime_shulker_box",
+      "minecraft:magenta_shulker_box",
+      "minecraft:orange_shulker_box",
+      "minecraft:pink_shulker_box",
+      "minecraft:purple_shulker_box",
+      "minecraft:red_shulker_box",
+      "minecraft:shulker_box",
+      "minecraft:trapped_chest",
+      "minecraft:white_shulker_box",
+      "minecraft:yellow_shulker_box"
+    ]
+  },
+  "HighJump": {
+    "Height": 6.0
+  },
+  "InvWalk": {
+    "Allow ClickGUI": true,
+    "Allow other screens": true,
+    "Allow sneak key": true,
+    "Allow sprint key": true,
+    "Allow jump key": true
+  },
+  "ItemESP": {
+    "Style": "Boxes only",
+    "Box size": "Fancy",
+    "Color": "#FFFF00"
+  },
+  "ItemGenerator": {
+    "Speed": 1.0,
+    "Stack size": 1.0
+  },
+  "Jesus": {
+    "NoCheat+ bypass": false
+  },
+  "Kaboom": {
+    "Power": 128.0
+  },
+  "Killaura": {
+    "Range": 5.0,
+    "Speed": 0.0,
+    "Priority": "Angle",
+    "FOV": 360.0,
+    "Damage indicator": true,
+    "Pause on containers": true,
+    "Check line of sight": false,
+    "Filter players": false,
+    "Filter sleeping": false,
+    "Filter flying": 0.0,
+    "Filter monsters": false,
+    "Filter pigmen": false,
+    "Filter endermen": false,
+    "Filter animals": false,
+    "Filter babies": false,
+    "Filter pets": false,
+    "Filter traders": false,
+    "Filter golems": false,
+    "Filter allays": false,
+    "Filter invisible": false,
+    "Filter named": false,
+    "Filter shulker bullets": false,
+    "Filter armor stands": false,
+    "Filter end crystals": false
+  },
+  "KillauraLegit": {
+    "Range": 4.25,
+    "Speed": 0.0,
+    "Rotation Speed": 600.0,
+    "Priority": "Angle",
+    "FOV": 360.0,
+    "Damage indicator": true,
+    "Filter players": false,
+    "Filter sleeping": true,
+    "Filter flying": 0.5,
+    "Filter monsters": false,
+    "Filter pigmen": false,
+    "Filter endermen": false,
+    "Filter animals": false,
+    "Filter babies": false,
+    "Filter pets": false,
+    "Filter traders": false,
+    "Filter golems": false,
+    "Filter allays": false,
+    "Filter invisible": true,
+    "Filter named": false,
+    "Filter shulker bullets": false,
+    "Filter armor stands": false,
+    "Filter end crystals": false
+  },
+  "KillPotion": {
+    "Potion type": "Splash"
+  },
+  "MileyCyrus": {
+    "Twerk speed": 5.0
+  },
+  "MobESP": {
+    "Style": "Boxes only",
+    "Box size": "Fancy",
+    "Filter invisible": false
+  },
+  "MobSpawnESP": {
+    "Draw distance": "9x9 chunks",
+    "Loading speed": 1.0,
+    "Depth test": true
+  },
+  "MultiAura": {
+    "Range": 5.0,
+    "Speed": 0.0,
+    "FOV": 360.0,
+    "Pause on containers": false,
+    "Filter players": false,
+    "Filter sleeping": false,
+    "Filter flying": 0.0,
+    "Filter monsters": false,
+    "Filter pigmen": false,
+    "Filter endermen": false,
+    "Filter animals": false,
+    "Filter babies": false,
+    "Filter pets": false,
+    "Filter traders": false,
+    "Filter golems": false,
+    "Filter allays": false,
+    "Filter invisible": false,
+    "Filter named": false,
+    "Filter shulker bullets": false,
+    "Filter armor stands": false,
+    "Filter end crystals": false
+  },
+  "NameTags": {
+    "Unlimited range": true,
+    "See-through mode": false,
+    "Force nametags": false
+  },
+  "NewChunks": {
+    "Style": "Outline",
+    "Show": "New Chunks",
+    "Show reasons": false,
+    "Show counter": false,
+    "Altitude": 0.0,
+    "Draw distance": 32.0,
+    "Opacity": 0.75,
+    "New chunks color": "#FF0000",
+    "Old chunks color": "#0000FF",
+    "Log chunks": false
+  },
+  "NoBackground": {
+    "All GUIs": false
+  },
+  "NoFall": {
+    "Allow elytra": false
+  },
+  "NoFireOverlay": {
+    "Offset": 0.6
+  },
+  "NoWeather": {
+    "Disable Rain": true,
+    "Change World Time": false,
+    "Time": 6000.0,
+    "Change Moon Phase": false,
+    "Moon Phase": 0.0
+  },
+  "Nuker": {
+    "Range": 5.0,
+    "Mode": "Normal",
+    "ID": "minecraft:air",
+    "Lock ID": false,
+    "MultiID List": [
+      "minecraft:ancient_debris",
+      "minecraft:bone_block",
+      "minecraft:coal_ore",
+      "minecraft:copper_ore",
+      "minecraft:deepslate_coal_ore",
+      "minecraft:deepslate_copper_ore",
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:deepslate_emerald_ore",
+      "minecraft:deepslate_gold_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:deepslate_lapis_ore",
+      "minecraft:deepslate_redstone_ore",
+      "minecraft:diamond_ore",
+      "minecraft:emerald_ore",
+      "minecraft:glowstone",
+      "minecraft:gold_ore",
+      "minecraft:iron_ore",
+      "minecraft:lapis_ore",
+      "minecraft:nether_gold_ore",
+      "minecraft:nether_quartz_ore",
+      "minecraft:raw_copper_block",
+      "minecraft:raw_gold_block",
+      "minecraft:raw_iron_block",
+      "minecraft:redstone_ore"
+    ]
+  },
+  "NukerLegit": {
+    "Range": 4.25,
+    "Mode": "Normal",
+    "ID": "minecraft:air",
+    "Lock ID": false,
+    "MultiID List": [
+      "minecraft:ancient_debris",
+      "minecraft:bone_block",
+      "minecraft:coal_ore",
+      "minecraft:copper_ore",
+      "minecraft:deepslate_coal_ore",
+      "minecraft:deepslate_copper_ore",
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:deepslate_emerald_ore",
+      "minecraft:deepslate_gold_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:deepslate_lapis_ore",
+      "minecraft:deepslate_redstone_ore",
+      "minecraft:diamond_ore",
+      "minecraft:emerald_ore",
+      "minecraft:glowstone",
+      "minecraft:gold_ore",
+      "minecraft:iron_ore",
+      "minecraft:lapis_ore",
+      "minecraft:nether_gold_ore",
+      "minecraft:nether_quartz_ore",
+      "minecraft:raw_copper_block",
+      "minecraft:raw_gold_block",
+      "minecraft:raw_iron_block",
+      "minecraft:redstone_ore"
+    ]
+  },
+  "Parkour": {
+    "Min depth": 0.5,
+    "Edge distance": 0.001
+  },
+  "PlayerESP": {
+    "Style": "Lines and boxes",
+    "Box size": "Fancy",
+    "Filter sleeping": false,
+    "Filter invisible": false
+  },
+  "Protect": {
+    "Speed": 0.0,
+    "Use AI (experimental)": false,
+    "Pause on containers": true,
+    "Filter players": false,
+    "Filter sleeping": false,
+    "Filter flying": 0.0,
+    "Filter monsters": false,
+    "Filter pigmen": false,
+    "Filter endermen": false,
+    "Filter animals": false,
+    "Filter babies": false,
+    "Filter pets": false,
+    "Filter traders": false,
+    "Filter golems": false,
+    "Filter allays": false,
+    "Filter invisible": false,
+    "Filter named": false,
+    "Filter shulker bullets": false,
+    "Filter armor stands": false,
+    "Filter end crystals": true
+  },
+  "Radar": {
+    "Radius": 100.0,
+    "Rotate with player": true,
+    "Filter players": false,
+    "Filter sleeping": false,
+    "Filter monsters": false,
+    "Filter animals": false,
+    "Filter invisible": false
+  },
+  "Reach": {
+    "Range": 6.0
+  },
+  "RemoteView": {
+    "Filter players": false,
+    "Filter sleeping": false,
+    "Filter flying": 0.0,
+    "Filter monsters": true,
+    "Filter pigmen": true,
+    "Filter endermen": true,
+    "Filter animals": true,
+    "Filter babies": true,
+    "Filter pets": true,
+    "Filter traders": true,
+    "Filter golems": true,
+    "Filter allays": true,
+    "Filter invisible": false,
+    "Filter armor stands": true
+  },
+  "Restock": {
+    "Items": [
+      "minecraft:minecart"
+    ],
+    "Slot": 0.0,
+    "Minimum amount": 1.0,
+    "Tools repair mode": 0.0
+  },
+  "SafeWalk": {
+    "Sneak at edges": false,
+    "Sneak edge distance": 0.05
+  },
+  "Search": {
+    "Block": "minecraft:diamond_ore",
+    "Area": "11x11 chunks",
+    "Limit": 4.0
+  },
+  "Sneak": {
+    "Mode": "Legit",
+    "Turn off while flying": false
+  },
+  "SpeedNuker": {
+    "Range": 5.0,
+    "Mode": "Normal",
+    "ID": "minecraft:air",
+    "Lock ID": false,
+    "MultiID List": [
+      "minecraft:ancient_debris",
+      "minecraft:bone_block",
+      "minecraft:coal_ore",
+      "minecraft:copper_ore",
+      "minecraft:deepslate_coal_ore",
+      "minecraft:deepslate_copper_ore",
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:deepslate_emerald_ore",
+      "minecraft:deepslate_gold_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:deepslate_lapis_ore",
+      "minecraft:deepslate_redstone_ore",
+      "minecraft:diamond_ore",
+      "minecraft:emerald_ore",
+      "minecraft:glowstone",
+      "minecraft:gold_ore",
+      "minecraft:iron_ore",
+      "minecraft:lapis_ore",
+      "minecraft:nether_gold_ore",
+      "minecraft:nether_quartz_ore",
+      "minecraft:raw_copper_block",
+      "minecraft:raw_gold_block",
+      "minecraft:raw_iron_block",
+      "minecraft:redstone_ore"
+    ]
+  },
+  "Step": {
+    "Mode": "Legit",
+    "Height": 1.0
+  },
+  "Throw": {
+    "Amount": 16.0
+  },
+  "Tillaura": {
+    "Range": 5.0,
+    "MultiTill": false,
+    "Check line of sight": true
+  },
+  "Timer": {
+    "Speed": 2.0
+  },
+  "TP-Aura": {
+    "Range": 4.25,
+    "Speed": 0.0,
+    "Priority": "Angle",
+    "Pause on containers": true,
+    "Filter players": false,
+    "Filter sleeping": false,
+    "Filter flying": 0.0,
+    "Filter monsters": false,
+    "Filter pigmen": false,
+    "Filter endermen": false,
+    "Filter animals": false,
+    "Filter babies": false,
+    "Filter pets": false,
+    "Filter traders": false,
+    "Filter golems": false,
+    "Filter allays": false,
+    "Filter invisible": false,
+    "Filter named": false,
+    "Filter shulker bullets": false,
+    "Filter armor stands": false,
+    "Filter end crystals": false
+  },
+  "Trajectories": {
+    "Miss Color": "#808080",
+    "Entity Hit Color": "#FF0000",
+    "Block Hit Color": "#00FF00"
+  },
+  "TreeBot": {
+    "Range": 4.5
+  },
+  "TriggerBot": {
+    "Range": 4.25,
+    "Speed": 0.0,
+    "Attack while blocking": false,
+    "Filter players": false,
+    "Filter sleeping": false,
+    "Filter flying": 0.0,
+    "Filter monsters": false,
+    "Filter pigmen": false,
+    "Filter endermen": false,
+    "Filter animals": false,
+    "Filter babies": false,
+    "Filter pets": false,
+    "Filter traders": false,
+    "Filter golems": false,
+    "Filter allays": false,
+    "Filter invisible": false,
+    "Filter named": false,
+    "Filter shulker bullets": false,
+    "Filter armor stands": false,
+    "Filter end crystals": false
+  },
+  "TrollPotion": {
+    "Potion type": "Splash"
+  },
+  "Tunneller": {
+    "Tunnel size": "3x3",
+    "Limit": 0.0,
+    "Place torches": false
+  },
+  "X-Ray": {
+    "Ores": [
+      "minecraft:ancient_debris",
+      "minecraft:anvil",
+      "minecraft:beacon",
+      "minecraft:bone_block",
+      "minecraft:bookshelf",
+      "minecraft:brewing_stand",
+      "minecraft:chain_command_block",
+      "minecraft:chest",
+      "minecraft:clay",
+      "minecraft:coal_block",
+      "minecraft:coal_ore",
+      "minecraft:command_block",
+      "minecraft:copper_ore",
+      "minecraft:crafting_table",
+      "minecraft:deepslate_coal_ore",
+      "minecraft:deepslate_copper_ore",
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:deepslate_emerald_ore",
+      "minecraft:deepslate_gold_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:deepslate_lapis_ore",
+      "minecraft:deepslate_redstone_ore",
+      "minecraft:diamond_block",
+      "minecraft:diamond_ore",
+      "minecraft:dispenser",
+      "minecraft:dropper",
+      "minecraft:emerald_block",
+      "minecraft:emerald_ore",
+      "minecraft:enchanting_table",
+      "minecraft:end_portal",
+      "minecraft:end_portal_frame",
+      "minecraft:ender_chest",
+      "minecraft:furnace",
+      "minecraft:glowstone",
+      "minecraft:gold_block",
+      "minecraft:gold_ore",
+      "minecraft:hopper",
+      "minecraft:iron_block",
+      "minecraft:iron_ore",
+      "minecraft:ladder",
+      "minecraft:lapis_block",
+      "minecraft:lapis_ore",
+      "minecraft:lava",
+      "minecraft:lodestone",
+      "minecraft:mossy_cobblestone",
+      "minecraft:nether_gold_ore",
+      "minecraft:nether_portal",
+      "minecraft:nether_quartz_ore",
+      "minecraft:raw_copper_block",
+      "minecraft:raw_gold_block",
+      "minecraft:raw_iron_block",
+      "minecraft:redstone_block",
+      "minecraft:redstone_ore",
+      "minecraft:repeating_command_block",
+      "minecraft:spawner",
+      "minecraft:suspicious_gravel",
+      "minecraft:suspicious_sand",
+      "minecraft:tnt",
+      "minecraft:torch",
+      "minecraft:trapped_chest",
+      "minecraft:water"
+    ],
+    "Only show exposed": false
+  },
+  ".annoy": {
+    "RC mode": false
+  },
+  ".friends": {
+    "Middle click friends": true
+  },
+  ".path": {
+    "Debug mode": false,
+    "Depth test": false
+  },
+  ".tp": {
+    "Disable Freecam": true
+  },
+  "Disable Wurst": {
+    "Hide enable button": false
+  },
+  "HackList": {
+    "Mode": "Auto",
+    "Position": "Left",
+    "Color": "#FFFFFF",
+    "Sort by": "Name",
+    "Reverse sorting": false,
+    "Animations": true
+  },
+  "NoChatReports": {
+    "Disable signatures": true
+  },
+  "NoTelemetry": {
+    "Disable telemetry": true
+  },
+  "TabGUI": {
+    "Status": "Disabled"
+  },
+  "Translations": {
+    "Force English": false
+  },
+  "VanillaSpoof": {
+    "Spoof Vanilla": false
+  },
+  "WurstLogo": {
+    "Background": "#FFFFFF",
+    "Text": "#000000",
+    "Visibility": "Always"
+  },
+  "Zoom": {
+    "Zoom level": 3.0,
+    "Use mouse wheel": true
+  }
+}
